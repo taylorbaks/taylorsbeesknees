@@ -178,6 +178,14 @@ function closeliterature(){
     },800);
 }
 
+function loadComments(){
+    fetch('https://taylorsbeeskees.com/comments.txt')
+    .then(response => response.text())
+    .then(data) => {
+    console.log(data)
+})
+}
+
 /*
 function closemyart() {
     console.log("closemyart function called"); // Add this line
