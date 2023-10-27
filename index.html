@@ -93,33 +93,19 @@
     </ul>
 </section>
 <script>
-    function addComment() {
-        const nameText = document.getElementById("name").value;
-        const commentText = document.getElementById("comment").value;
-        if (nameText && commentText) {
-            const commentList = document.getElementById("comment-list");
-            const li = document.createElement("li");
-            li.textContent = nameText + ": " + commentText;
-            commentList.appendChild(li);
-            document.getElementById("name").value = "";
-            document.getElementById("comment").value = "";
-            
-            // Send the comment to the server for storage
-            saveComment(nameText, commentText);
-        }
-    }
-    
-    // Function to save the comment to the server
-    function saveComment(name, comment) {
-        fetch('saveComment.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ name, comment })
-            });
-    }
-</script>
+            function addComment() {
+                const nameText = document.getElementById("name").value;
+                const commentText = document.getElementById("comment").value;
+                if (nameText && commentText) {
+                    const commentList = document.getElementById("comment-list");
+                    const li = document.createElement("li");
+                    li.textContent = nameText + ": " + commentText;
+                    commentList.appendChild(li);
+                    document.getElementById("name").value = ""; 
+                    document.getElementById("comment").value = ""; 
+                }
+            }
+        </script>
 
 
     </div>
