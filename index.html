@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -79,34 +79,45 @@
               </p>  
         </section>
         <section>
-            <h2>Leave a note!</h2>
-            <form id="comment-form">
-                <textarea id ="name" placeholder="Your name" required rows="1"></textarea><br>
-                <textarea id="comment" placeholder="Your message" required rows="1"></textarea><br>
-                <button class="btn_one" onclick="addComment()">Send</button>
-            </form>
-        </section>
-        <section>
-            <h2> Note Book! </h2>
-            <ul id="comment-list">
-        
-            </ul>
-        </section>
-        <script>
-            function addComment() {
-                const nameText = document.getElementById("name").value;
-                const commentText = document.getElementById("comment").value;
-                if (nameText && commentText) {
-                    const commentList = document.getElementById("comment-list");
-                    const li = document.createElement("li");
-                    li.textContent = nameText + ": " + commentText;
-                    commentList.appendChild(li);
-                    document.getElementById("name").value = ""; 
-                    document.getElementById("comment").value = ""; 
-                }
-            }
-        </script>
-        
+    <h2>Leave a note!</h2>
+    <form id="comment-form">
+        <textarea id="name" placeholder="Your name" required rows="1"></textarea><br>
+        <textarea id="comment" placeholder="Your message" required rows="1"></textarea><br>
+        <button class="btn_one" onclick="addComment()">Send</button>
+    </form>
+</section>
+<section>
+    <h2> Note Book! </h2>
+    <ul id="comment-list">
+        <!-- Comments will be displayed here -->
+    </ul>
+</section>
+<script>
+    function addComment() {
+        const nameText = document.getElementById("name").value;
+        const commentText = document.getElementById("comment").value;
+        if (nameText && commentText) {
+            const commentList = document.getElementById("comment-list");
+            const li = document.createElement("li");
+            li.textContent = nameText + ": " + commentText;
+            commentList.appendChild(li);
+            document.getElementById("name").value = "";
+            document.getElementById("comment").value = "";
+            
+            // Send the comment to the server for storage
+            saveComment(nameText, commentText);
+        }
+    }
+    
+    // Function to save the comment to the server
+    function saveComment(name, comment) {
+        // Send an AJAX request to the server to save the comment
+        // You can use JavaScript's fetch or XMLHttpRequest to send data to a server-side script.
+        // The server-side script (e.g., in PHP) will handle the storage of comments.
+        // Example: fetch('saveComment.php', { method: 'POST', body: JSON.stringify({ name, comment }) });
+    }
+</script>
+
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
