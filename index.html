@@ -111,10 +111,13 @@
     
     // Function to save the comment to the server
     function saveComment(name, comment) {
-        // Send an AJAX request to the server to save the comment
-        // You can use JavaScript's fetch or XMLHttpRequest to send data to a server-side script.
-        // The server-side script (e.g., in PHP) will handle the storage of comments.
-        // Example: fetch('saveComment.php', { method: 'POST', body: JSON.stringify({ name, comment }) });
+        fetch('saveComment.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name, comment })
+            });
     }
 </script>
 
