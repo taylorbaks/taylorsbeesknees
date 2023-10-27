@@ -186,18 +186,18 @@ function loadComments(){
 }))
 }
 
-function addComment() {
-    const nameText = document.getElementById("name").value;
-    const commentText = document.getElementById("comment").value;
-    if (nameText && commentText) {
-        const commentList = document.getElementById("comment-list");
-        const li = document.createElement("li");
-        li.textContent = nameText + ": " + commentText;
-        commentList.appendChild(li);
-        document.getElementById("name").value = ""; 
-        document.getElementById("comment").value = ""; 
-                }
-            }
+// function addComment() {
+//     const nameText = document.getElementById("name").value;
+//     const commentText = document.getElementById("comment").value;
+//     if (nameText && commentText) {
+//         const commentList = document.getElementById("comment-list");
+//         const li = document.createElement("li");
+//         li.textContent = nameText + ": " + commentText;
+//         commentList.appendChild(li);
+//         document.getElementById("name").value = ""; 
+//         document.getElementById("comment").value = ""; 
+//                 }
+//             }
 
 /*
 function closemyart() {
