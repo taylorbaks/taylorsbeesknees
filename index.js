@@ -182,7 +182,7 @@ function loadNotebook(){
     fetch('https://taylorsbeesknees.com/comments.txt')
     .then(response => response.text()
     .then((data) => {
-    console.log(data) 
+    alert(data) 
 }))
 }
 
