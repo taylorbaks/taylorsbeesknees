@@ -181,7 +181,7 @@ function closeliterature(){
 function loadComments(){
     fetch('https://taylorsbeeskees.com/comments.txt')
     .then(response => response.text())
-    .then(data) => {
+    .then((data) => {
     console.log(data)
 })
 }
