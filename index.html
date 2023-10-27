@@ -84,14 +84,14 @@
         <textarea id="name" placeholder="Your name" required rows="1"></textarea><br>
         <textarea id="comment" placeholder="Your message" required rows="1"></textarea><br>
         <button class="btn_one" onclick="addComment()">Send</button>
+        <button class="btn_one" onclick="loadComment()">Load Notebook!</button>
     </form>
 </section>
-<section>
+<!-- <section>
     <h2> Note Book! </h2>
     <ul id="comment-list">
-        <!-- Comments will be displayed here -->
     </ul>
-</section>
+</section> -->
 <script>
             function addComment() {
                 const nameText = document.getElementById("name").value;
