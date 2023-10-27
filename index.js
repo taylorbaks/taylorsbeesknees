@@ -178,7 +178,7 @@ function closeliterature(){
     },800);
 }
 
-function loadComments(){
+function loadNotebook(){
     fetch('https://taylorsbeesknees.com/comments.txt')
     .then(response => response.text()
     .then((data) => {
