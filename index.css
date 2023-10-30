@@ -18,6 +18,14 @@ body {
     height: 100vh; /* 100% of viewport height */
 }
 
+.scrollbox {
+  width: 300px; /* Set a fixed width for the box */
+  height: 200px; /* Set a fixed height for the box */
+  overflow: auto; /* Make the box scrollable when content overflows */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
 #boxe1 {
     float: left;
     width: 500px; 
