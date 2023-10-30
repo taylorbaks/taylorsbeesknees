@@ -26,6 +26,11 @@ body {
   padding: 10px;
 }
 
+.blacktext-box {
+    color: #000; /* Black text color */
+    padding: 20px; /* Padding on all sides */
+}
+
 #boxe1 {
     float: left;
     width: 500px; 
