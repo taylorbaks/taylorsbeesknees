@@ -76,6 +76,14 @@ body {
     background:rgb(255, 50, 50);
     margin-left:-5px;
 }
+
+.section {
+    flex: 1; /* Distribute available space equally between the two sections */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
 #menu {
     width:100%;
     text-align:center;
