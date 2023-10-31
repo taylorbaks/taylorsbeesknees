@@ -25,7 +25,8 @@
             if (users.hasOwnProperty(username)) {
                 if (users[username] === password) {
                     alert("Login successful");
-                    
+                    window.location.href = "index.html"; 
+
                 } else {
                     alert("Incorrect password");
                 }
