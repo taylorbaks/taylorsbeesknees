@@ -186,4 +186,15 @@ function loadNotebook(){
 }))
 }
 
+function checkAuth(){
+    var isAuthenticated = JSON.parse(localStorage.getItem('isAuthenticated'));
+    if (isAuthenticated === true) {
+        window.location.href = "index.html";
+    
+    }   else {
+        window.location.href = "login.html"; 
 
+
+}
+
+} 

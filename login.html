@@ -16,17 +16,17 @@
             "Rutgers": "scarletknights4life",
             "CRWU": "spartans4life"
         };
+        localStorage.setItem('isAuthenticated', JSON.stringify(false));
 
         function authenticate() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
-
-            // Check if the entered username exists in the dictionary
             if (users.hasOwnProperty(username)) {
                 if (users[username] === password) {
                     alert("Login successful");
-                    isAuthenticated = true;
-                    window.location.href = "index.html"; 
+                    var isAuthenticated = true;
+                    localStorage.setItem('isAuthenticated', JSON.stringify(isAuthenticated));
+                        window.location.href = "index.html"; 
 
                 } else {
                     alert("Incorrect password");
