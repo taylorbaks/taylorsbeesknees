@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Login Page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        // Define a dictionary of hardcoded user-password pairs
+        var users = {
+            "Oberlin": "obies4life",
+            "Rutgers": "scarletknights4life",
+            "CRWU": "spartans4life"
+        };
+
+        function authenticate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Check if the entered username exists in the dictionary
+            if (users.hasOwnProperty(username)) {
+                if (users[username] === password) {
+                    alert("Login successful");
+                    
+                } else {
+                    alert("Incorrect password");
+                }
+            } else {
+                alert("User not found");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div>
+
+    </div>
+
+</body>
