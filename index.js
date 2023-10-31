@@ -186,9 +186,4 @@ function loadNotebook(){
 }))
 }
 
-/*
-function closemyart() {
-    console.log("closemyart function called"); // Add this line
-    // Rest of your code...
-}
-*/
+
