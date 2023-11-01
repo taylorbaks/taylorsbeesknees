@@ -17,7 +17,7 @@
             "CRWU": "spartans4life",
             "Lucy": "ilovelucy"
         };
-        localStorage.setItem('isAuthenticated', JSON.stringify(false));
+        // localStorage.setItem('isAuthenticated', JSON.stringify(false));
 
         function authenticate() {
             var username = document.getElementById("username").value;
@@ -26,7 +26,7 @@
                 if (users[username] === password) {
                     alert("Login successful");
                     var isAuthenticated = true;
-                    localStorage.setItem('isAuthenticated', JSON.stringify(isAuthenticated));
+                    sessionStorage.setItem('isAuthenticated', JSON.stringify(isAuthenticated));
                         window.location.href = "index.html"; 
 
                 } else {
