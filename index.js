@@ -186,17 +186,4 @@ function loadNotebook(){
 }))
 }
 
-function checkAuth(){
-    var isAuthenticated = JSON.parse(sessionStorage.getItem('isAuthenticated'));
-    if (isAuthenticated === true) {
-        window.location.href = "index.html";
-    
-    }   else {
-        window.location.href = "login.html"; 
-
-
-}
-
-} 
-
 sessionStorage.setItem('isAuthenticated', JSON.stringify(false));
