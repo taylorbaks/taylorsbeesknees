@@ -116,7 +116,8 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+   /* color:rgb(255, 50, 50); */
+    color:#fff;
     font-size:70px;
     /* text-decoration: underline; */ 
 }
