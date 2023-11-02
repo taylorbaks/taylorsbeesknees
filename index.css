@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
 
 body {
     padding:0px;
@@ -118,7 +118,7 @@ body {
 #middle h1 {
     color:rgb(255, 50, 50);
     font-size:70px;
-    text-decoration:underline;
+    /* text-decoration: underline; */ 
 }
 #about {
     width:10vw;
