@@ -77,7 +77,8 @@ body {
 
 .slideshow-container {
     position: relative;
-    max-width: 800px;
+    width: 90%;
+    height: 800px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
