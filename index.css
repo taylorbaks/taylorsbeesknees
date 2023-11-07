@@ -95,7 +95,7 @@ body {
 
 img {
     width: auto;
-    height: 90%;
+    max-height: 500px;
 }
 
 .fade {
