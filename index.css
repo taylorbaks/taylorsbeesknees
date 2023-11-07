@@ -23,6 +23,7 @@ body {
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    border: 2px ridge #fff;
 }
 
 .hidden-paragraph {
