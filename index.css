@@ -55,6 +55,12 @@ body {
     padding: 20px; /* Padding on all sides */
 }
 
+.blacktext-boxx {
+    color: #000; /* Black text color */
+    padding: 20px; /* Padding on all sides */
+    padding-top: 0px;
+}
+
 .boxe1 {
     float: left;
     width: 100%; 
