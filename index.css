@@ -26,6 +26,14 @@ body {
   padding: 10px;
 }
 
+.scrollbox-music {
+    width: 90%; /* Set a fixed width for the box */
+    height: 352px; /* Set a fixed height for the box */
+    overflow: auto; /* Make the box scrollable when content overflows */
+    border: 1px solid #ccc;
+    padding: 0px;
+  }
+
 .blacktext-box {
     color: #000; /* Black text color */
     padding: 20px; /* Padding on all sides */
