@@ -40,6 +40,7 @@ body {
   overflow: auto; /* Make the box scrollable when content overflows */
   border: 1px solid #ccc;
   padding: 10px;
+  /* margin: 0px; */
 }
 
 .scrollbox-music {
@@ -47,12 +48,14 @@ body {
     height: 352px; /* Set a fixed height for the box */
     overflow: auto; /* Make the box scrollable when content overflows */
     border: 1px solid #ccc;
-    padding: 0px;
+    /* margin: 0px; */
   }
 
 .blacktext-box {
     color: #000; /* Black text color */
     padding: 20px; /* Padding on all sides */
+    margin-top: 0px; 
+    margin-bottom: 0px; 
 }
 
 .blacktext-boxx {
