@@ -123,6 +123,11 @@ body {
     display: none;
 }
 
+.mainheader {
+    color:#fff;
+    font-size:70px;
+}
+
 img {
     width: auto;
     max-height: 500px;
