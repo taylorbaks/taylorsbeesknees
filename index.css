@@ -18,6 +18,21 @@ body {
     height: 100vh; /* 100% of viewport height */
 }
 
+.dropdown-button {
+    background-color: rgb(185, 50, 50);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hidden-paragraph {
+    display: none;
+}
+
+.visible-paragraph {
+    display: block;
+}
+
 .scrollbox {
   width: 90%; /* Set a fixed width for the box */
   height: 400px; /* Set a fixed height for the box */
@@ -96,6 +111,7 @@ body {
 img {
     width: auto;
     max-height: 500px;
+    max-width: 95%;
 }
  
 .fade {
