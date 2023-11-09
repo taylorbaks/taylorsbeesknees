@@ -147,6 +147,8 @@ img {
     margin: 0;
     padding: 0;
     display: none;
+    max-height: 350;
+    max-width: auto;
     animation: fade 3s linear; 
 }
 
