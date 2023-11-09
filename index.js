@@ -209,7 +209,8 @@ function showSlides() {
     }
     slides[slideIndex].style.display = "block";
     slideIndex++;
-    setTimeout(showSlides, 6000); // Change image every 3 seconds (matching the animation duration)
+    setTimeout(showSlides, 6000); 
+     // Change image every 3 seconds (matching the animation duration)
 }
 
 function toggleParagraph() {

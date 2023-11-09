@@ -147,7 +147,7 @@ img {
     margin: 0;
     padding: 0;
     display: none;
-    animation: fade 6s linear; 
+    animation: fade 3s linear; 
 }
 
 .mainslideshow-container {
@@ -161,7 +161,7 @@ img {
     margin: 0;
     padding: 0;
     display: none;
-    animation: fade 6s linear;
+    animation: fade 3s linear;
     justify-content: center; 
 }
 
