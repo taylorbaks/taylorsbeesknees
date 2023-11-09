@@ -150,6 +150,26 @@ img {
     animation: fade 3s linear; 
 }
 
+.mainslideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mainslideshow-container .slide {
+    margin: 0;
+    padding: 0;
+    display: none;
+    animation: fade 3s linear;
+    justify-content: center; 
+}
+
+.mainslideshow-container img {
+    height: 472.5px;
+    width: auto;
+}
+
 @keyframes fade {
     0% {
         opacity: 0;
