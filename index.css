@@ -147,7 +147,7 @@ img {
     margin: 0;
     padding: 0;
     display: none;
-    max-height: 320;
+    max-height: 320px;
     max-width: auto;
     animation: fade 3s linear; 
 }
