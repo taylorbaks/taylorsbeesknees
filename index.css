@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://user-images.githubusercontent.com/149135365/283972799-34b02cd0-232f-48f6-8931-e8ab596f8e67.png") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1598476543599-72c8a60894d7?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlZCUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -19,7 +19,7 @@ body {
 }
 
 .dropdown-button {
-    background-color: rgb(3, 78, 11);
+    background-color: rgb(185, 50, 50);
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -83,7 +83,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(5, 102, 15);
+    background:rgb(255, 50, 50);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(5, 102, 15);
+    border-bottom:12px solid rgb(255, 50, 50);
     border-radius:50%;
     margin:0;
 }
@@ -120,7 +120,7 @@ body {
     height: 400px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgb(5, 102, 15);
+    background-color: rgb(255, 50, 50);
     border: 5px double rgb(0, 0, 0);
     padding: 10px;
     align-items: center;
@@ -199,10 +199,10 @@ img {
     display:inline-block;
 }
 .box1 {
-    background:rgb(5, 102, 15);
+    background:rgb(255, 50, 50);
 }
 .box2 {
-    background:rgb(5, 102, 15);
+    background:rgb(255, 50, 50);
     margin-left:-5px;
 }
 
@@ -292,11 +292,11 @@ img {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(5, 102, 15,0.9);
+    background:rgba(255, 50, 50,0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(5, 102, 15,0.9);
+    background:rgba(255, 50, 50,0.9);
     cursor:pointer;
 }
 #contact:hover {
@@ -320,13 +320,13 @@ img {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(5, 102, 15);
+    color:rgb(255, 50, 50);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(5, 102, 15);
+    background:rgb(255, 50, 50);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -385,13 +385,13 @@ img {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(5, 102, 15);
+    color:rgb(255, 50, 50);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(5, 102, 15);
+    color:rgb(255, 50, 50);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -455,7 +455,7 @@ img {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(5, 102, 15) ;
+    color:rgb(255, 50, 50) ;
 }
 #particles-js {
     position:fixed;
@@ -470,14 +470,14 @@ img {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(5, 102, 15); 
+    background: rgb(255, 50, 50); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(5, 102, 15,0.8); 
+    background: rgba(255, 50, 50,0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(5, 102, 15);
+	background: rgb(255, 50, 50);
 }
 
 @media (max-width: 800px){ 
