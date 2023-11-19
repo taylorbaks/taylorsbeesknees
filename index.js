@@ -236,5 +236,5 @@ function toggleParagraphBPM() {
 
 function toggleItemsBPM() {
     var items = document.getElementById("itemsBPM");
-    items.classList.toggle("visible-paragraph");
+    items.classList.toggle("visible-items");
 }

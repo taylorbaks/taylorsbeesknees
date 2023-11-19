@@ -34,6 +34,15 @@ body {
     display: block;
 }
 
+.hidden-items {
+    display: none;
+}
+
+.visible-paragraph {
+    display: flex;
+    align-items: center;
+}
+
 .scrollbox {
   width: 90%; /* Set a fixed width for the box */
   height: 400px; /* Set a fixed height for the box */
