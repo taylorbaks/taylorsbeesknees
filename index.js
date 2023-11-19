@@ -227,3 +227,8 @@ function toggleParagraphSS() {
     var paragraph = document.getElementById("paragraphSS");
     paragraph.classList.toggle("visible-paragraph");
 }
+
+function toggleParagraphBPM() {
+    var paragraph = document.getElementById("paragraphBPM");
+    paragraph.classList.toggle("visible-paragraph");
+}
