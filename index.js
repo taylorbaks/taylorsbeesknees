@@ -230,11 +230,13 @@ function toggleParagraphSS() {
 
 function toggleParagraphBPM() {
     var paragraph = document.getElementById("paragraphBPM");
-    paragraph.classList.toggle("visible-paragraph");
-    toggleItemsBPM();
-}
-
-function toggleItemsBPM() {
     var items = document.getElementById("itemsBPM");
-    items.classList.toggle("visible-items");
-}
+  
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      items.style.display = "flex";
+    } else {
+      paragraph.style.display = "none";
+      items.style.display = "none";
+    }
+  }
