@@ -217,3 +217,13 @@ function toggleParagraph() {
     var paragraph = document.getElementById("paragraph");
     paragraph.classList.toggle("visible-paragraph");
 }
+
+function toggleParagraphD() {
+    var paragraph = document.getElementById("paragraphD");
+    paragraph.classList.toggle("visible-paragraph");
+}
+
+function toggleParagraphSS() {
+    var paragraph = document.getElementById("paragraphSS");
+    paragraph.classList.toggle("visible-paragraph");
+}
